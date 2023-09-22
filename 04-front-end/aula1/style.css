@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 10px;
+    border: 0;
+    font-size: 100%;
+     vertical-align: baseline;
+}
+body {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    font-family: "Times New Roman", Times, serif;
+}
+.header {
+    background-color: blue;
+    padding: 0px;
+    text-align: center;
+}
+.header h1 {
+    font-size: 36px;
+    color: black;
+}
+.container {
+    display: flex;
+    align-items: center;
+}
+
+#conteudo {
+    display: flex;
+    align-items: center;
+}
+
+.foto img {
+    width: 500px;
+    margin-right: 20px;
+}
+
+.informacoes {
+    width: 100%;
+    font-size: 24px;
+    padding: 24px;
+    list-style: circle;
+    flex: 1;
+    line-height: 10px;
+}
+
+.informacoes h2 {
+   font-size: 40px;
+}
+
+.inf {
+    flex: 1;
+    padding: 10px;
+}
+.Hobbies {
+    font-size: 30px;
+    margin-left: 20px;
+    align-items: center;
+}
+.img{
+    display: flex;
+}
+.Experiencias,
+.Formacao-cursos,
+.Objetivos,
+.Sobre-eu {
+    font-size: 30px;
+    margin-left: 20px;
+}
+.Experiencias h2 {
+    margin-bottom: 10px;
+}

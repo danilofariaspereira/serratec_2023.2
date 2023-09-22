@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+
+    <div>
+        <h1 id="titulo"><strong>Cadastro de DEVs</strong></h1>
+        <p id="subtitulo"><strong>Informações Pessoais</strong></p>
+    </div>
+
+    <form>
+       <fieldset class="grupo">
+        <div>
+            <label for="nome"><strong>Nome:</strong></label> <br>
+            <input type="text"  nome="nome completo" id="nome completo" required>
+        </div>
+
+        <div class="campo">
+            <label for="cpf"><strong>CPF:</strong></label><br>
+            <input type="text" nome="cpf" id="cpf" required>
+        </div>
+        <div>
+            <label for="nascimento"><strong>Nascimento:</strong></label><br>
+            <input type="date" nome="nascimento" id="nascimento" required>
+        </div>
+        <div class="campo">
+            <label for="endereço"><strong>Endereço:</strong></label><br>
+            <input type="text" nome="rua" id="rua" required>
+        </div>
+        <div class="campo">
+            <label for="cidade"><strong>Cidade:</strong></label><br>
+            <input type="text" nome="cidade" id="cidade" required>
+        </div>
+        <div class="campo">
+            <label for="estado"><strong>Estado:</strong></label><br>
+            <input type="text" nome="estado" id="estado" required>
+        </div>
+        <div class="campo">
+            <label for="telefone"><strong>Numero Telefone:</strong></label><br>
+            <input type="text" nome="telefone" id="telefone" required>
+        </div>
+       </fieldset >
+       
+       <div class="campo">
+        <p><strong>Informações para cadastro</strong></p>
+       </div>
+       <div>
+        <label><strong>De qual lado da aplicaço voce desenvolve?</strong></label><br>
+        <label >
+            <input type="radio" nome="" value="frontend">Front-end
+        </label>
+        <label>
+            <input type="radio" nome="" value="back-end">Back-end
+        </label>
+        <label>
+            <input type="radio" nome="devweb" value="fullstack">Fullstack
+        </label>
+       </div><br>
+
+       <div class="campo">
+        <label for="senioridade"><strong>Senioridade:</strong></label><br>
+        <select id="senioridade">
+            <option selected disabled value="">Selecione</option>
+            <option>Junior</option>
+            <option>Pleno</option>
+            <option>Senior</option>
+        </select>
+       </div><br><br>
+
+       <fieldset class="grupo">
+        <div>
+            <label><strong>Selecione as Tecnologias utilizadas:</strong></label><br>
+            <input type="checkbox" id="tecnologia1" nome="tecnologia1" value="HTML">
+            <label for="tecnologia">HTML</label>
+            <input type="checkbox" id="tecnologia2" nome="tecnologia2" value="CSS">
+            <label for="tecnologia">CSS</label>
+            <input type="checkbox" id="tecnologia3" nome="tecnologia3" value="Javascript">
+            <label for="tecnologia">Javascript</label>
+            <input type="checkbox" id="tecnologia4" nome="tecnologia4" value="PHP">
+            <label for="tecnologia">PHP</label>
+            <input type="checkbox" id="tecnologia5" nome="tecnologia5" value="Python">
+            <label for="tecnologia">Python</label>
+            <input type="checkbox" id="tecnologia6" nome="tecnologia6" value="C#">
+            <label for="tecnologia">C#</label>
+            <input type="checkbox" id="tecnologia7" nome="tecnologia7" value="Java">
+            <label for="tecnologia">Java</label>
+        </div>
+       </fieldset>
+
+       <div class="campo">
+        <br>
+        <label><strong>Conte-nos um pouco sobre você:</strong></label><br>
+        <textarea row="6" style="width: 25em;" id="experiencia" nome="experiencia" required></textarea>
+       </div>
+
+       <div class="campo">
+        <label><strong>Informe um email valido</strong></label><br>
+        <input type="email" nome="email " id="email" required> <br>
+        <label><strong>Crie uma senha</strong> </label><br>
+        <input type="senha" nome="senha" id="senha"required> <br>
+        <label><strong>Por favor repita a senha</strong> </label><br>
+        <input type="senha2" nome="senha2" id="senha2" required>
+       </div><br>
+
+       <button class="botao" type="submit">Enviar</button>
+    </form>
+    
+</body>
+</html>
