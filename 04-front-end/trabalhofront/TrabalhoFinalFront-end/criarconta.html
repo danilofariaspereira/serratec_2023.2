@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+
+    <div>
+        <h1 id="titulo"><strong>Cadastro</strong></h1>
+        <p id="subtitulo"><strong>Informações Pessoais</strong></p>
+    </div>
+
+    <form>
+       <fieldset class="grupo">
+        <div>
+            <label for="nome"><strong>Nome:</strong></label> <br>
+            <input type="text"  nome="nome completo" id="nome completo" required>
+        </div>
+
+        <div class="campo">
+            <label for="cpf"><strong>CPF:</strong></label><br>
+            <input type="text" nome="cpf" id="cpf" required>
+        </div>
+
+        <div>
+            <label for="nascimento"><strong>Nascimento:</strong></label><br>
+            <input type="date" nome="nascimento" id="nascimento" required>
+        </div>
+
+        <div class="campo">
+            <label for="telefone"><strong>Numero Telefone:</strong></label><br>
+            <input type="text" nome="telefone" id="telefone" required>
+        </div>
+       </fieldset >
+
+       <div class="campo">
+        <label for="formaçao"><strong>Formação:</strong></label><br>
+        <select id="senioridade">
+            <option selected disabled value="">Selecione</option>
+            <option> Ensino Fundamental</option>
+            <option> Ensino Medio</option>
+            <option>Ensino Superior</option>
+            <option>Pós Graduado</option>
+        </select>
+       </div><br>
+       
+       <div>
+        <label><strong>Qual sua preferencia?</strong></label><br>
+        <label >
+            <input type="radio" nome="" value="frontend">Front-end
+        </label>
+        <label>
+            <input type="radio" nome="" value="back-end">Back-end
+        </label>
+        <label>
+            <input type="radio" nome="devweb" value="fullstack">Fullstack
+        </label>
+       </div><br>
+
+       
+
+       <fieldset class="grupo">
+        <div>
+            <label><strong>Marques as opeões desejadas:</strong></label><br>
+            <input type="checkbox" id="tecnologia1" nome="tecnologia1" value="HTML">
+            <label for="tecnologia">HTML</label>
+            <input type="checkbox" id="tecnologia2" nome="tecnologia2" value="CSS">
+            <label for="tecnologia">CSS</label>
+            <input type="checkbox" id="tecnologia3" nome="tecnologia3" value="Javascript">
+            <label for="tecnologia">Javascript</label>
+        </div>
+       </fieldset><br>
+
+       <div class="campo">
+        <label><strong>Informe um email valido</strong></label><br>
+        <input type="email" nome="email " id="email" required> <br>
+        <label><strong>Crie uma senha</strong> </label><br>
+        <input type="senha" nome="senha" id="senha"required> <br>
+        <label><strong>Por favor repita a senha</strong> </label><br>
+        <input type="senha2" nome="senha2" id="senha2" required>
+       </div><br>
+
+       <button class="botao" type="submit">Enviar</button>
+    </form>
+    
+</body>
+</html>
