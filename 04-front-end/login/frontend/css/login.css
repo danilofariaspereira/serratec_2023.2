@@ -1,0 +1,65 @@
+
+/* 
+    Especificidade
+
+    tag = 1 ponto
+    classes = 10 pontos
+    ids = 100 pontos
+
+*/
+
+.box-login {
+    width: 300px;
+    margin: auto;
+    border: 2px solid var(--cor-borda);
+    margin-top: 100px;
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.titulo-login{
+    text-align: center;
+    color: var(--cor-primaria);
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+div.esqueci-minha-senha {
+   text-align: right;
+   font-style: italic; 
+   margin-top: 3px;
+}
+
+div.esqueci-minha-senha > a {
+    color: var(--cor-primaria);
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+label {
+    font-size: 12px;
+}
+
+input,
+#btn-entrar {
+    width: 100%;
+    padding: 5px;
+    outline: none;
+    border-radius: 2px;
+    border: 2px solid var(--cor-borda);
+}
+
+#btn-entrar {
+    background-color: var(--cor-primaria);
+    margin-top: 10px;
+    border: none;
+    color: var(--cor-fundo);
+    font-weight: 600;
+}
+
+#btn-entrar:hover {
+    cursor: pointer;
+    background-color: var(--cor-secundaria);
+}

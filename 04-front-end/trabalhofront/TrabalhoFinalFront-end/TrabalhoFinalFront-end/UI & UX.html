@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="icon" type="image/png" href="./src/img/Software_DevSchool_azul.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/pagedoscursos.css">
+    <title>Software DevSchool - UI & UX</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <a href="./inicio.html"><img src="./src/img/Software_DevSchool.png" alt="Software DevSchool"></a>
+        </div>
+        <div class="menu">
+            <a href="./inicio.html">Inicio</a>
+            <a href="./cursos.html">Cursos</a>
+            <a href="./dev.html">Quem somos</a>
+            <a href="./login.html"><button type="button" class="btn btn-warning">Entrar</button></a>
+        </div>
+    </header>
+    <div class="botaodark">
+        <input type="checkbox" class="checkbox" id="chk">
+        <label class="label" for="chk">
+            <i class="fas fa-moon"></i>
+            <i class="fas fa-sun"></i>
+            <div class="ball"></div>
+        </label>
+    </div><br>
+    <section class="marca">
+        <div class="container">
+            <div class="intro">
+                <h1> (UI & UX)</h1>
+                <p>
+                    Bem-vindo ao Curso de Design de Experiência do Usuário (UI & UX)! Neste curso, você explorará o emocionante
+                    mundo do design centrado no usuário, aprendendo as habilidades essenciais para criar interfaces digitais
+                    atraentes e eficazes.
+                </p>
+            </div>
+            <div class="mainContainer">
+                <div class="left">
+                    <div>
+                        <h3><span class="textolaranja">Módulo 1</span>: Fundamentos de UI & UX</h3>
+                        <ul>
+                            <li>O que é UI (Interface do Usuário) e UX (Experiência do Usuário) e sua importância.</li>
+                            <li>Princípios de design centrado no usuário.</li>
+                            <li>Compreendendo o ciclo de vida da experiência do usuário.</li>
+                        </ul>
+                    </div>
+                    <div class="paragrafos">
+                        <h3><span class="textolaranja">Módulo 2</span>: Design de Interface do Usuário (UI)</h3>
+                        <ul>
+                            <li>Elementos de UI: botões, formulários, navegação e tipografia.</li>
+                            <li>Princípios de design visual: layout, cor, contraste e hierarquia.</li>
+                            <li>Prototipagem e wireframing para criar interfaces eficazes.</li>
+                        </ul>
+                    </div>
+                    <div class="paragrafos">
+                        <h3><span class="textolaranja">Módulo 3</span>: Pesquisa e Testes de Usuário</h3>
+                        <ul>
+                            <li>Conduzindo pesquisas de usuário para entender as necessidades e preferências.</li>
+                            <li>Testes de usabilidade e feedback do usuário.</li>
+                            <li>Iteração de design com base em resultados de pesquisa.</li>
+                        </ul>
+                    </div>
+                    <div class="paragrafos">
+                        <h3><span class="textolaranja">Módulo 4</span>: Experiência do Usuário (UX) de Alto Nível</h3>
+                        <ul>
+                            <li>Design de jornada do usuário: mapeando interações do usuário.</li>
+                            <li>Criação de fluxos de usuário intuitivos.</li>
+                            <li>Desenvolvimento de personas de usuário.</li>
+                        </ul>
+                    </div>
+                    <div class="paragrafos">
+                        <h3><span class="textolaranja">Módulo 5</span>:Design Responsivo e Acessibilidade</h3>
+                        <ul>
+                            <li>Criando experiências responsivas para diferentes dispositivos.</li>
+                            <li>Design inclusivo e acessibilidade digital.</li>
+                            <li>Considerações de design para diversos públicos.</li>
+                        </ul>
+                    </div>
+                    <div class="paragrafos">
+                        <h3><span class="textolaranja">Módulo 6</span>:Prototipagem e Ferramentas</h3>
+                        <ul>
+                            <li>Prototipagem interativa de interfaces de usuário.</li>
+                            <li>Uso de ferramentas de design e prototipagem.</li>
+                            <li>Apresentação de protótipos para stakeholders.</li>
+                        </ul>
+                    </div>
+                    <div class="paragrafos">
+                        <h3><span class="textolaranja">Módulo 7</span>: Projeto Prático de UI & UX</h3>
+                        <ul>
+                            <li>Aplicação de todas as habilidades aprendidas em um projeto prático.</li>
+                            <li>Design de uma interface de usuário completa e testes de usabilidade.</li>
+                            <li>Avaliação e refinamentos finais com base no feedback do usuário.</li>
+                        </ul>
+                    </div>
+                    
+                </div>
+                <div class="imui&ux1">
+                    <img src="./src/img/ux1.jpeg" width="500px" alt="uxImage"><br><br><br><br>
+                    <img id="eae" width="500px" src="./src/img/ux2.jpeg" alt="imagem ux"><br><br><br><br>
+                    <img src="./src/img/ux3.jpeg" width="500px" alt="uxIcon">
+                </div>
+            </div>
+        </div>
+    </section><br>
+    <button class="btn btn-secondary position-absolute top-6 end-0 m-3" id="alterarTemaSite"
+        onclick="alterarTemaSite()"><i class="bi bi-toggle-on"></i></button>
+
+    <div id="btnTop">
+        <i class="arrow up"></i>
+    </div>
+
+    <footer class="rodape">
+        <p>&copy; Software DevSchool.</p>
+        <div>
+            <a class="quemsomos" href="./faleconosco.html">FALE CONOSCO</a>
+            <p>TERMOS DE USO</p>
+            <p>POLITICAS DE PRIVACIDADE</p>
+        </div>
+    </footer>
+    <script src="./js/javascript.js"></script>
+    <script src="https://kit.fontawesome.com/998c60ef77.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

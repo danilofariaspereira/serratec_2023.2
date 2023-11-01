@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | Serratec</title>
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <!-- Caminhos relativos
+        ./ ando para frente
+        ../ volto uma pasta
+    -->
+
+    <!-- Aqui é mundo HTML -->
+    <!-- login.css -->
+    <!-- Bootstrap CSS -->
+
+</head>
+
+<body>
+
+    <main class="box-login">
+        <!-- Titulo -->
+        <div class="titulo-login">
+            <h1>Login</h1>
+        </div>
+
+        <!-- Grupo do email -->
+        <div class="grupo">
+            <label for="email">E-mail</label> <br>
+            <input id="email" type="text" maxlength="50">
+        </div>
+
+        <!-- Grupo do senha -->
+        <div class="grupo">
+            <label for="senha">Senha</label> <br>
+            <input id="senha" type="password" minlength="6">
+        </div>
+
+        <!-- Link para recuperar senha -->
+        <div class="esqueci-minha-senha">
+            <a id="esqueci-minha-senha" href="#" >Esqueci minha senha</a>
+        </div>
+
+        <!-- Bottão de entrar -->
+        <button id="btn-entrar">Entrar</button>
+
+    </main>
+
+    <!-- Aqui estou importando o arquivo javascript -->
+    <script src="./js/login.js"></script>
+</body>
+
+</html>
